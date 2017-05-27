@@ -34,8 +34,19 @@ h1, h2, h3 {
   padding-top: 40px;
   padding-bottom: 75px;
 }
+.navbar-default .navbar-brand{
+  color: currentColor;
+  
+}
 
+.navbar-default .navbar-nav li a {
+  font-weight: bold;
+}
 .navbar { 
   border: none;
 }
 
+.navbar-default .navbar-brand:hover, .navbar.default .navbar-nav li a:hover {
+  color: black;
+  opacity: 0.75;
+}
