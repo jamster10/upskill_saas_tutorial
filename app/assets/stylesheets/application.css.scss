@@ -46,6 +46,16 @@ h1, h2, h3 {
   }
 }
 
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: white;
+}
+
+.navbar-default .navbar-toggle{
+  border: 2px solid white;
+  &:hover, &:focus {
+    background-color: #2BC0E4;
+  }
+}
 .navbar-brand{
   font-family: 'Quicksand', sans-serif;
   font-weight: 800;
