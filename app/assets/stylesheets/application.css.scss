@@ -37,6 +37,10 @@ h1, h2, h3 {
   padding-bottom: 75px;
 }
 
+.alert-notice {
+  display:none;
+}
+
 //Nav styles
 .navbar-default .navbar-brand{
   color: currentColor;
@@ -68,9 +72,6 @@ h1, h2, h3 {
   }
   
 }
-
-
-
 
 .navbar { 
   border: none;
